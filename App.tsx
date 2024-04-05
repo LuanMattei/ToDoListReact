@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import RandomColorHeaderTitle from './src/RandomColorHeaderTitle'; 
-
+import { GestureHandlerRootView} from 'react-native-gesture-handler'
 import HomeScreen from './screens/HomeScreen';
 
 const Stack = createStackNavigator();
